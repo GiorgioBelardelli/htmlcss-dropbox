@@ -21,10 +21,10 @@
 
 .col li{
     display: inline-block;
-    margin: 0px 10px;
+    margin: 10px 10px 0 10px;
     vertical-align: middle;
 }
-a{
+header a{
     color: black;
     text-decoration: none;
 }
@@ -39,6 +39,9 @@ a{
     border: 0px;
     padding: 10px 15px;
 }
+
+
+
 
 /*Stile Jumbotron*/
 
@@ -73,3 +76,66 @@ a{
     width: 100%;
     margin-bottom: -100px;
 }
+
+
+
+
+/*Stili sezione carte*/
+
+#businessPlan{
+    text-align: start;
+    margin: 150px auto 0px auto;
+    width: 40%;
+
+}
+#businessPlan h2{
+    font-size: 40px
+}
+
+#businessPlan span{
+    margin: 30px 30px 30px 0;
+    display: inline-block;
+}
+
+#cards .row{
+    justify-content: center;
+    gap: 50px;
+    /*DEBUG*/
+    border: 2px dashed black;
+}
+
+.colCard{
+    width: 12%;
+    
+    line-height: 50px;
+}
+.cost{
+    font-weight: bold;
+}
+.bill{
+    color: grey;
+}
+.colCard li{
+    list-style-type: none;
+    line-height: 20px;
+    margin: 30px auto;
+}
+.card{
+    border: 1px solid lightgray;
+    padding: 20px 30px;
+}
+.cardTop{
+    text-align: center;
+    border-bottom: 0;
+    padding: 5px 0;
+}
+
+.cardMain{
+    
+}
+
+.colCard hr{
+    width: 20%;
+    background-color: lightgray;
+}
+
