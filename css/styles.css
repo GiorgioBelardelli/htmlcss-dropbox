@@ -39,3 +39,37 @@ a{
     border: 0px;
     padding: 10px 15px;
 }
+
+/*Stile Jumbotron*/
+
+#jumbo{
+    width: 100%;
+    background-color: #cce6ff;
+}
+
+#jumbo h1{
+    font-size: 60px;
+}
+
+#jumbo .row{
+    width: 50%;
+    margin: 10px auto; 
+}
+
+#jumbo .textCol{
+    width: 50%;
+}
+
+#jumbo .fa-arrow-down{
+    font-size: 40px;
+    margin-top: 40%;
+}
+
+#jumbo .blueButton{
+    margin: 30px auto;
+}
+
+#jumboImg{
+    width: 100%;
+    margin-bottom: -100px;
+}
