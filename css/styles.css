@@ -15,6 +15,10 @@
 .row{
     display: flex;
     width: 100%;
+    justify-content: center;
+}
+
+header .row{
     justify-content: space-between;
     padding: 20px;
 }
@@ -158,13 +162,17 @@ header a{
 }
 
 .colCard .blueButton{
-    margin: 30px auto;
-    padding: 10px 40px;
+    width: 90%;
+    margin: 30px 10px;
+    padding: 15px 25px;
+    
+    
 }
 
 /*Riga con carta larga*/
 
 .rowCard{
+    margin-top: 50px;
     width: 43%;
 }
 
@@ -191,4 +199,35 @@ header a{
 
 .rowCard p{
     margin-top: 50px;
+}
+
+/*Stili sezione mid*/
+
+.rowPartner{
+    margin: 200px auto;
+    width: 43%;
+}
+
+.colImg{
+    width: 60%;
+}
+
+
+.colText{
+    width: 40%;
+    padding: 40px;
+}
+
+.colImg img{
+     width: 100%;
+}
+
+.colText p{
+    margin: 30px auto;
+}
+
+.colText .blueButton{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
