@@ -82,6 +82,8 @@ header a{
 
 /*Stili sezione carte*/
 
+
+/*Piano di Fatturazione*/
 #businessPlan{
     text-align: start;
     margin: 150px auto 0px auto;
@@ -93,37 +95,47 @@ header a{
 }
 
 #businessPlan span{
-    margin: 30px 30px 30px 0;
+    margin: 30px 40px 30px 0;
     display: inline-block;
 }
 
+
+/*Prima riga carte*/
 #cards .row{
     justify-content: center;
     gap: 50px;
-    /*DEBUG*/
-    border: 2px dashed black;
+
 }
 
 .colCard{
-    width: 12%;
-    
+    width: 13%;
     line-height: 50px;
+    min-height: 1100px;
+
 }
+
 .cost{
     font-weight: bold;
+    line-height: 20px;
+    display: block;
 }
+
 .bill{
     color: grey;
 }
+
 .colCard li{
     list-style-type: none;
     line-height: 20px;
-    margin: 30px auto;
+    margin: 30px 0 30px 20px;
+    position: relative;
 }
+
 .card{
     border: 1px solid lightgray;
     padding: 20px 30px;
 }
+
 .cardTop{
     text-align: center;
     border-bottom: 0;
@@ -131,11 +143,52 @@ header a{
 }
 
 .cardMain{
-    
+    min-height: 1100px;
+}
+
+.cardMain i{
+    position: absolute;
+    left: -25px;
 }
 
 .colCard hr{
     width: 20%;
     background-color: lightgray;
+    margin: 40px 0 40px 0;
 }
 
+.colCard .blueButton{
+    margin: 30px auto;
+    padding: 10px 40px;
+}
+
+/*Riga con carta larga*/
+
+.rowCard{
+    width: 43%;
+}
+
+.rowCard .cardTop{
+    padding: 10px 0;
+}
+
+.rowCard .cardMain{
+    min-height: 0;
+    position: relative;
+    padding-right: 40%;
+}
+
+.rowCard .blueButton{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    padding: 10px 40px;
+}
+
+.rowCard h2{
+    margin-bottom: 20px;
+}
+
+.rowCard p{
+    margin-top: 50px;
+}
