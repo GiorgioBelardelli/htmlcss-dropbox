@@ -88,17 +88,17 @@ header a{
 
 
 /*Piano di Fatturazione*/
-#businessPlan{
+.businessPlan{
     text-align: start;
     margin: 150px auto 0px auto;
-    width: 40%;
+    width: 43%;
 
 }
-#businessPlan h2{
+.businessPlan h2{
     font-size: 40px
 }
 
-#businessPlan span{
+.businessPlan span{
     margin: 30px 40px 30px 0;
     display: inline-block;
 }
@@ -230,4 +230,24 @@ header a{
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+/*Stili sezione Business */
+
+.businessRow{
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 20px auto;
+    gap: 20px;
+
+}
+
+.businessCol{
+    width: 30%;
+    padding: 20px;
+
+}
+
+.businessCol img{
+    width: 100%;
 }
