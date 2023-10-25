@@ -422,12 +422,12 @@ header a{
 #langSelection{
     display: block;
     color: grey;
-    padding: 3% 17%;
+    padding: 3% 14%;
 }
 
 .rowFooter hr{
     width: 5%;
-    margin-left: 17%;
+    margin-left: 14%;
     background-color: grey;
 }
 #langSelection a{
