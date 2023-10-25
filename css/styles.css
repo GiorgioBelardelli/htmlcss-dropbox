@@ -288,10 +288,12 @@ header a{
 .rowCol img{
     padding: 30px;
     width: 80%;
+    filter: invert(1);
 }
 
 .centralCol img{
     padding: 50px;
+    fill: black;
 }
 
 .centralCol{
@@ -352,3 +354,84 @@ header a{
     border: 0;
     padding: 10px 40px;
 }
+
+
+/*Sezione Faq*/
+
+.rowFaq{
+    width: 60%;
+    border-bottom: 1px solid black;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+
+.rowFaq h2{
+    display: inline-block;
+}
+
+.rowFaq h1{
+    margin-top: 200px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.rowFaq .fa-angle-down{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+.rowFaq:last-of-type{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+/*Stili footer*/
+
+.rowFooter{
+    background-color: black;
+    color: white;
+    gap: 250px;
+}
+
+.rowFooter a{
+    color: white;
+    text-decoration: none;
+}
+
+.rowFooter h2{
+    margin: 50px 0;
+}
+
+.rowFooter li{
+    display: block;
+    margin-left: -5px;
+    margin-top: 15px;
+}
+
+.rowFooter .col{
+    margin: 100px 0;
+}
+
+#langSelection{
+    display: block;
+    color: grey;
+    padding: 3% 17%;
+}
+
+.rowFooter hr{
+    width: 5%;
+    margin-left: 17%;
+    background-color: grey;
+}
+#langSelection a{
+    color: gray;
+}
+
+
